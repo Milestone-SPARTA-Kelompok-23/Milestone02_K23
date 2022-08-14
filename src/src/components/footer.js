@@ -1,6 +1,15 @@
+import '../styles/footer.css'
+
 const Footer = () => {
     return (
-        <div></div>
+        <div className='footer'>
+            <ul>
+                <li>
+                    <a href="/#about-us">About Us</a>
+                </li>
+            </ul>
+            <p>by SPARTANS HMIF 2021 made with ❤️</p>
+        </div>
     )
 }
 
