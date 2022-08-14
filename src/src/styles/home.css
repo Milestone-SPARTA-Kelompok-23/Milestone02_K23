@@ -1,0 +1,158 @@
+.home {
+    background: url('../images/background-home.png');
+    background-repeat: repeat;
+}
+
+.home h1 {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 60px;
+    color: #FEFAE0;
+}
+
+.header-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    padding: 8rem 0;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header-logo button{
+    width: 15rem;
+    background-color: #FEFAE0;
+    border: none;
+    text-decoration: underline;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 0.5rem 0;
+}
+
+.header-logo a {
+    color: black;
+    width: 15rem;
+}
+
+.header-text {
+    color: #FEFAE0;
+    width: 40%;
+    margin-left: auto;
+}
+
+.header-text h2{
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+.hot-fabrics{ 
+    background-color: #FEFAE0;
+    padding: 2rem;
+    border-radius: 66px;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.hot-fabrics h3 {
+    font-weight: 300;
+    font-size: 30px;
+    color: #263618;
+}
+
+.hot-fabrics a {
+    border-radius: 32px;
+    margin: auto;
+}
+.link-more a{
+    color: #263618;
+    margin-top: 5rem;
+    font-size: 20px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.card-container {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FEFAE0;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 9rem;
+}
+
+.about-us-1 {
+    width: 40%;
+}
+
+.about-us-1 h2, .about-us-2 h2 {
+    font-size: 100px;
+    font-weight: 300;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+.about-us-2 {
+    width: 40%;
+    margin-left: auto;
+}
+
+.about-us-1 p, .about-us-2 p {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1040px) {
+    .header-home {
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+      gap: 2rem;
+    }
+
+    .header-logo {
+        gap: 4rem;
+        margin: 0 auto;
+    }
+
+    .header-logo a {
+        margin: 0 auto;
+    }
+
+    .header-logo img {
+        width: 80%;
+        margin: auto;
+    }
+    .header-text{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 26px;
+    }
+    .card-container{
+        gap: 2rem;
+        flex-direction: column;
+    }
+    #about-us {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about-us-1, .about-us-2{
+        width: 80%;
+        margin: 0;
+    }
+  }
