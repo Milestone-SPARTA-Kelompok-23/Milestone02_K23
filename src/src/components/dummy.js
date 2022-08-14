@@ -96,6 +96,86 @@ const Dummy = {
             name : "Jeans Patched Fabric",
             price : 50000,
             description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            id: '21',
+            category : 'Thrift',
+            image : Image,
+            name : "Dress Pants",
+            price : 70000,
+            description : "Brown cotton-based dress pants for women."
+        },
+        {
+            id: '22',
+            category : 'Thrift',
+            image : Image,
+            name : "Old Blue Shorts",
+            price : 70000,
+            description : "Blue nylon-based shorts for women"
+        },
+        {
+            id: '23',
+            category : 'Thrift',
+            image : Image,
+            name : "Rustler Jeans",
+            price : 70000,
+            description : "Navy blue cotton-based jeans for men"
+        },
+        {
+            id: '24',
+            category : 'Thrift',
+            image : Image,
+            name : "Mitre Shorts",
+            price : 70000,
+            description : "Black cotton-based shorts for men."
+        },
+        {
+            id: '25',
+            category : 'Thrift',
+            image : Image,
+            name : "Charlotte Russe Dress",
+            price : 100000,
+            description : "Pink rayon-based dress"
+        },
+        {
+            id: '26',
+            category : 'Thrift',
+            image : Image,
+            name : "PrettyLittleThing Jumpsuit",
+            price : 100000,
+            description : "Black elastane-based jumpsuit"
+        },
+        {
+            id: '27',
+            category : 'Thrift',
+            image : Image,
+            name : "No Boundaries Legging",
+            price : 50000,
+            description : "Cotton based legging for girls"
+        },
+        {
+            id: '28',
+            category : 'Thrift',
+            image : Image,
+            name : "Old Navy Sweater",
+            price : 90000,
+            description : "Navy cotton-based sweater for boys"
+        },
+        {
+            id: '29',
+            category : 'Thrift',
+            image : Image,
+            name : "Old Navy Vest",
+            price : 110000,
+            description : "Black polyster-based vest for men"
+        },
+        {
+            id: '30',
+            category : 'Thrift',
+            image : Image,
+            name : "Axist Shirt",
+            price : 90000,
+            description : "Black button-down long sleeve cotton shirt for men"
         }
     ]   
 }
