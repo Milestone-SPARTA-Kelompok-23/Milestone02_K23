@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import NavBar from "../components/navbar";
-import Footer from "../components/ footer";
+import Footer from "../components/footer";
 import "../styles/product.css";
 import { db } from "../firebase";
 import { doc, updateDoc} from "firebase/firestore";

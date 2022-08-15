@@ -2,10 +2,10 @@ import { useState } from "react";
 import leftArrow from "../images/left-arrow.png";
 import rightArrow from "../images/right-arrow.png";
 
-const Pagination = ({ data, RenderComponent, pageLimit, dataLimit, cart, updateCart, doc })  => {
-    const [pages] = useState(Math.ceil(data.data.length / dataLimit));
+const Pagination = ({ data, RenderComponent, pageLimit, dataLimit, cart, updateCart, doc, category })  => {
+    data = data.data.filter((item) => item.category === category)
+    const [pages] = useState(Math.ceil(data.length / dataLimit));
     const [currentPage, setCurrentPage] = useState(1);
-    data = data.data
     const goToNextPage = () => {
         setCurrentPage((page) => page + 1);
         window.scrollTo({top: 400, left: 0, behavior: 'smooth'});

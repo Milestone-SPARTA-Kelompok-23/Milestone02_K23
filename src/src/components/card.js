@@ -23,7 +23,7 @@ const Card = (props) => {
     }
     return (
             <div className="card">
-            <a href={`/products/${props.id}`}><img src={props.image} alt="fabric" /></a>
+            <a href={`/products/${props.id}`}><img src={props.image} alt="fabric" className="card-image"/></a>
             <p>{props.name}</p>
             <div className="card-bottom">
                 <div className="card-price">

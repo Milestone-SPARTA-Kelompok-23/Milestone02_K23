@@ -1,12 +1,12 @@
-import React, { userEffect, userSatte } from "react";
+import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useNavigate } from "react-router-dom";
-import "../styles/dashboard.css";
+import "../styles/profile.css";
 import { auth, db, logout } from "../firebase";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import Profile from "../images/profile-img.png"
-import { query, collection, getDocs, where } from "firebas/firestore";
+import { query, collection, getDocs, where } from "firebase/firestore";
 function Dashboard() {
     const [user, loading] = useAuthState(auth);
     const [name, setname] = useState("");

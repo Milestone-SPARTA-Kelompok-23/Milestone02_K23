@@ -1,11 +1,22 @@
 import Image from "../images/jeans.png";
+import Image1 from "./Dummy-Images/1.png"
+import Image2 from "./Dummy-Images/2.png"
+import Image3 from "./Dummy-Images/3.png"
+import Image4 from "./Dummy-Images/4.png"
+import Image5 from "./Dummy-Images/5.png"
+import Image6 from "./Dummy-Images/6.png"
+import Image7 from "./Dummy-Images/7.png"
+import Image8 from "./Dummy-Images/8.png"
+import Image9 from "./Dummy-Images/9.png"
+import Image10 from "./Dummy-Images/10.png"
+
 const Dummy = {
     data :
     [
         {
             id:'1',
-            category : 'Fabric',
-            image : 
+            category : 'Fabrics',
+            image : Image1,
             name : 'Jeans Patched Fabric',
             price : 40000,
             description : 'Surplus fabric collected from fashion production that is no longer needed by the factory that are patched into certain sizes.'
@@ -13,15 +24,15 @@ const Dummy = {
         {
             id:'2',
             category : 'Fabrics',
-            image : 
-            name : 'Cotton Fabric'
+            image : Image2,
+            name : 'Cotton Fabric',
             price : 55000,
             description : 'Residue cotton fabrics from the production of cotton-based wears.'
         },
         {
             id:'3',
             category : 'Fabrics',
-            image : 
+            image : Image3,
             name : 'Unprocessed Denim Fabric',
             price : 75000,
             description : 'Denim fabric that are leftover, not been processed after the first use.'
@@ -29,7 +40,7 @@ const Dummy = {
         {
             id:'4',
             category : 'Fabrics',
-            image : 
+            image : Image4,
             name : 'Alternating Design Patched Fabric',
             price : 60000,
             description : 'Leftover fabrics from fashion productions that has been processed into an alternating design fabric.'
@@ -37,7 +48,7 @@ const Dummy = {
         {
             id:'5',
             category : 'Fabrics',
-            image : 
+            image : Image5,
             name : 'Cotton Doubl Layer Knitted Fabric',
             price : 60000,
             description : 'Leftover fabric knitted to sized fabric in a double-layered style.'
@@ -45,7 +56,7 @@ const Dummy = {
         {
             id: '6',
             category : 'Fabrics',
-            image : 
+            image : Image6,
             name : 'Fixed Sized Denim Fabric',
             price : 12000,
             description : 'Denim fabric residue left from wear production, in fixed sizes.'
@@ -53,7 +64,7 @@ const Dummy = {
         {
             id:'7',
             category : 'Fabrics',
-            image : 
+            image : Image7,
             name : 'Polyester Fabric',
             price : 90000,
             description :'Fabric leftover from the production of a European bag manufacturer.'
@@ -61,7 +72,7 @@ const Dummy = {
         {
             id: '8',
             category : 'Fabrics',
-            image : 
+            image : Image8,
             name : 'Patched Fabric Scraps',
             price : 30000,
             description : 'Fabric scraps patched into certain sizes made for upcycling.'
@@ -69,7 +80,7 @@ const Dummy = {
         {
             id:'9',
             category : 'Fabrics',
-            image : 
+            image : Image9,
             name : 'Nylon Fabric',
             price : 110000,
             description : 'Nylon fabric residue left from the production from a wear manufacturer.'
@@ -77,7 +88,7 @@ const Dummy = {
         {
             id:'10',
             category : 'Fabrics',
-            image : 
+            image : Image10,
             name : 'Linen Cotton Cuts',
             price : 45000,
             description : 'Leftover fabric linen cotton cuts.'
