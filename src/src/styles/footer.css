@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #263618;
+    border-top: 2.5px solid #FEFAE0;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    column-gap: 2rem;
+    margin: auto;
+}
+
+.footer p {
+    color: #606C38;
+}
