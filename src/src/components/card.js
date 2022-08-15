@@ -3,7 +3,6 @@ import { doc, updateDoc } from "firebase/firestore";
 
 const Card = (props) => {   
     const updateCart = async () => {
-        window.alert("Produk berhasil ditambahkan ke cart.")
         let cart = {
             id:props.id,
             image: props.image,
@@ -13,18 +12,20 @@ const Card = (props) => {
         }
         let newCart = props.cart
         newCart.push(cart)
-        console.log(newCart)
-        const washingtonRef = doc(db, "users", props.doc);
-
-        await updateDoc(washingtonRef, {
-            cart : newCart
-        });
-
-    }
+        try { 
+            const washingtonRef = doc(db, "users", props.doc);
+            await updateDoc(washingtonRef, {
+                cart : newCart
+            });
+            window.alert("Produk berhasil ditambahkan ke cart.")
+        } catch(err) {
+            window.alert("Silahkan login terlebih dahulu.")
+        }
+    }   
     return (
             <div className="card">
             <a href={`/products/${props.id}`}><img src={props.image} alt="fabric" className="card-image"/></a>
-            <p>{props.name}</p>
+            <p style={{fontSize:"20px"}}>{props.name}</p>
             <div className="card-bottom">
                 <div className="card-price">
                     <span style={{fontSize:"12px"}}>Price</span>

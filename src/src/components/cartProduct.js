@@ -7,7 +7,7 @@ const CartProduct = (props) => {
                         </div>
                     </div>
                     <div className="cart-details">
-                        <h1>{props.name} <span>- {props.quantity} +</span></h1>
+                        <h1>{props.name} <span>{props.quantity}</span></h1>
                         <hr></hr>
                         <p className="cart-price">Price:<br></br><span>Rp.{props.price}</span></p>
                     </div>

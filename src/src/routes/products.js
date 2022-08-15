@@ -7,12 +7,15 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import Data from "../components/dummy";
 import { auth, db } from "../firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
+import { useNavigate } from 'react-router-dom';
 
 const Products = () => {
     const [user, loading] = useAuthState(auth);
     const [cart, setCart] = useState([]);
     const [category, setCategory] = useState("Fabrics");
     const [id, setID] = useState("");
+    const navigate = useNavigate();
+
     useEffect(() => {
         if(user) {
                 const fetchData = async () => {
@@ -25,7 +28,8 @@ const Products = () => {
                 if (loading) return;
                 fetchData();
         }
-    }, [user, loading]);
+        if (!user) return navigate("/login");
+    }, [user, loading, navigate]);
     const fetchCategory = (e) => {
         const category = e
         setCategory(category)

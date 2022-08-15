@@ -14,6 +14,7 @@ import React, { useState, useEffect } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "./firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
+import Checkout from './routes/checkout';
 
 function App() {
   const [user] = useAuthState(auth);
@@ -40,9 +41,10 @@ function App() {
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/reset" element={<Reset />} />
           <Route exact path="/profile" element={<Profile />} />
-          <Route exact path="/products" element={<Products />} />
-          <Route path="/products/:id" element={<Product data={Data} cart={cart} doc={id}/>} />
+          <Route exact path="/products" element={<Products user={user}/>} />
+          <Route path="/products/:id" element={<Product data={Data} cart={cart} doc={id} user={user}/>} />
           <Route exact path="/cart" element={<Cart />} />
+          <Route exact path="/checkout" element={<Checkout data={Data} cart={cart} doc={id} user={user}/>} />
         </Routes>
       </BrowserRouter>
     </div>

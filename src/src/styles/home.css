@@ -34,6 +34,7 @@
     border-radius: 30px;
     font-size: 30px;
     padding: 0.5rem 0;
+    cursor: pointer;
 }
 
 .header-logo a {

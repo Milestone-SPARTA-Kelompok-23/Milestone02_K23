@@ -56,6 +56,7 @@ const Checkout = (props) => {
         }
         return totalPrice
     }
+    if(newCart.length === 0) return navigate("/");
     return (
         <>
         <NavBar />

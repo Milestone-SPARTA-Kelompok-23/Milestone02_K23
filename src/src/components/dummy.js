@@ -9,7 +9,16 @@ import Image7 from "./Dummy-Images/7.png"
 import Image8 from "./Dummy-Images/8.png"
 import Image9 from "./Dummy-Images/9.png"
 import Image10 from "./Dummy-Images/10.png"
-
+import Image21 from "./Dummy-Images/21.png"
+import Image22 from "./Dummy-Images/22.jpg"
+import Image23 from "./Dummy-Images/23.png"
+import Image24 from "./Dummy-Images/24.png"
+import Image25 from "./Dummy-Images/25.png"
+import Image26 from "./Dummy-Images/26.png"
+import Image27 from "./Dummy-Images/27.png"
+import Image28 from "./Dummy-Images/28.png"
+import Image29 from "./Dummy-Images/29.png"
+import Image30 from "./Dummy-Images/30.png"
 const Dummy = {
     data :
     [
@@ -96,6 +105,7 @@ const Dummy = {
 
         {
             id: '11',
+            category : 'Zero-Waste Fashion',
             image : Image,
             name : "Jeans Patched Fabric",
             price : 50000,
@@ -103,6 +113,7 @@ const Dummy = {
         },
         {
             id: '12',
+            category : 'Zero-Waste Fashion',
             image : Image,
             name : "Jeans Patched Fabric",
             price : 50000,
@@ -111,7 +122,7 @@ const Dummy = {
         {
             id: '21',
             category : 'Thrift',
-            image : Image,
+            image : Image21,
             name : "Dress Pants",
             price : 70000,
             description : "Brown cotton-based dress pants for women."
@@ -119,7 +130,7 @@ const Dummy = {
         {
             id: '22',
             category : 'Thrift',
-            image : Image,
+            image : Image22,
             name : "Old Blue Shorts",
             price : 70000,
             description : "Blue nylon-based shorts for women"
@@ -127,7 +138,7 @@ const Dummy = {
         {
             id: '23',
             category : 'Thrift',
-            image : Image,
+            image : Image23,
             name : "Rustler Jeans",
             price : 70000,
             description : "Navy blue cotton-based jeans for men"
@@ -135,7 +146,7 @@ const Dummy = {
         {
             id: '24',
             category : 'Thrift',
-            image : Image,
+            image : Image24,
             name : "Mitre Shorts",
             price : 70000,
             description : "Black cotton-based shorts for men."
@@ -143,7 +154,7 @@ const Dummy = {
         {
             id: '25',
             category : 'Thrift',
-            image : Image,
+            image : Image25,
             name : "Charlotte Russe Dress",
             price : 100000,
             description : "Pink rayon-based dress"
@@ -151,7 +162,7 @@ const Dummy = {
         {
             id: '26',
             category : 'Thrift',
-            image : Image,
+            image : Image26,
             name : "PrettyLittleThing Jumpsuit",
             price : 100000,
             description : "Black elastane-based jumpsuit"
@@ -159,7 +170,7 @@ const Dummy = {
         {
             id: '27',
             category : 'Thrift',
-            image : Image,
+            image : Image27,
             name : "No Boundaries Legging",
             price : 50000,
             description : "Cotton based legging for girls"
@@ -167,7 +178,7 @@ const Dummy = {
         {
             id: '28',
             category : 'Thrift',
-            image : Image,
+            image : Image28,
             name : "Old Navy Sweater",
             price : 90000,
             description : "Navy cotton-based sweater for boys"
@@ -175,7 +186,7 @@ const Dummy = {
         {
             id: '29',
             category : 'Thrift',
-            image : Image,
+            image : Image29,
             name : "Old Navy Vest",
             price : 110000,
             description : "Black polyster-based vest for men"
@@ -183,7 +194,7 @@ const Dummy = {
         {
             id: '30',
             category : 'Thrift',
-            image : Image,
+            image : Image30,
             name : "Axist Shirt",
             price : 90000,
             description : "Black button-down long sleeve cotton shirt for men"

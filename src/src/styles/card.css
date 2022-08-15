@@ -8,6 +8,8 @@
     border : 1px solid black;
     text-align: left;
     color: #606C38;
+    width: 262px;
+    height: 307px;
 }
 
 .card p {
@@ -17,6 +19,10 @@
     margin-block-end: 0.5rem;
 }
 
+.card img {
+    width: 262px;
+    height: 211px;
+}
 .card-bottom {
     display: flex;
 }
@@ -38,4 +44,5 @@
     text-decoration: underline;
     margin-left: auto;
     padding: 0.5rem;
+    cursor: pointer;
 }
