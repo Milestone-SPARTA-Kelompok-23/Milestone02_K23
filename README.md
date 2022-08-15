@@ -1,5 +1,5 @@
 # Re-Wear
-<penjelasan singkat?>
+We are a platform that connects fashion enthusiasts, zero-waste fashion companies, and basically, all people that believe in slow fashion to a limitless resource of zero-waste fashion.
 
 ## Kelompok 23 Re-Wear
 Anggota Kelompok :
