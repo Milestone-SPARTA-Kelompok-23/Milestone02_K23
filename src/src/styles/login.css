@@ -120,3 +120,20 @@ body{
     text-decoration: none;
     color: #606C38;
 }
+
+@media screen and (max-width: 768px) {
+    .brand_logo{
+      width: 100%;
+    }
+
+    .login-image img{
+      width: 100%;
+    }
+    .main {
+      width: 100%;
+    }
+    .login_container {
+      flex-direction: column;
+      width: 100%;
+    }
+  }

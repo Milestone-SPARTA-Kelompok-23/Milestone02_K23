@@ -71,14 +71,35 @@ const Checkout = (props) => {
                         {newCart.map((item) => 
                             <CheckoutProduct image={item.image} name={item.name} price={item.price} quantity={item.quantity}/>
                         )}
-                        <p className="cart-price-total">Total:<br></br><span>Rp.{TotalPrice()}</span></p>
+                        <p className="cart-price-total">Total:<br></br><span>Rp{TotalPrice().toLocaleString()}</span></p>
+                    </div>
+                    <div className='payment-method'>
+                        <span>Select Payment Method :</span>
+                        <div>
+                            <input type="radio" name="payment" value="Cash" style={{marginRight: "1rem"}}/>Cash On Delivery
+                        </div>
+                        <div>
+                            <input type="radio" name="payment" value="BCA" style={{marginRight: "1rem"}}/>Bank BCA (Virtual Account)
+                        </div>
+                        <div>
+                            <input type="radio" name="payment" value="Mandiri" style={{marginRight: "1rem"}}/>Bank Mandiri (Virtual Account)
+                        </div>
+                        <div>
+                            <input type="radio" name="payment" value="BNI" style={{marginRight: "1rem"}}/>Bank BNI (Virtual Account)
+                        </div>
+                        <div>
+                            <input type="radio" name="payment" value="BRI" style={{marginRight: "1rem"}}/>Bank BRI (Virtual Account)
+                        </div>
+                        <div>
+                            <input type="radio" name="payment" value="Syariah" style={{marginRight: "1rem"}}/>Bank Syariah Indonesia
+                        </div>
                     </div>
                     <div className='checkout-note'>
                         <span>Note :</span>
                         <textarea></textarea>
                     </div>
                     <div className='place-order'>
-                        <p>Total Payment: Rp.{TotalPrice()}</p>
+                        <p>Total Payment: Rp{TotalPrice().toLocaleString()}</p>
                         <button onClick={updateCart}>Place Order</button>
                     </div>
                 </div>

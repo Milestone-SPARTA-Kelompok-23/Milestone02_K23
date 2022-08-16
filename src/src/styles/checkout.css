@@ -62,6 +62,23 @@
     cursor: pointer;
 }
 
+.cart-price-total p{
+    font-size: 20px;
+}
+
+.cart-price-total span{
+    font-size: 30px;
+}
+
+.payment-method {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: start;
+    gap: 1rem;
+    font-size: 20px;
+}
 @media screen and (max-width: 768px) {
     .main-checkout {
         text-align: center;
@@ -93,5 +110,10 @@
     }
     .place-order button {
         margin: auto;
+    }
+    .payment-method {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 4rem;
     }
   }

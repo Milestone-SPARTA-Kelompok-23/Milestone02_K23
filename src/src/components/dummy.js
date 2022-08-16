@@ -1,4 +1,3 @@
-import Image from "../images/jeans.png";
 import Image1 from "./Dummy-Images/1.png"
 import Image2 from "./Dummy-Images/2.png"
 import Image3 from "./Dummy-Images/3.png"
@@ -10,7 +9,7 @@ import Image8 from "./Dummy-Images/8.png"
 import Image9 from "./Dummy-Images/9.png"
 import Image10 from "./Dummy-Images/10.png"
 import Image11 from "./Dummy-Images/11.png"
-import Image12 from "./Dummy-Images/12.png"
+import Image12 from "./Dummy-Images/12.jpg"
 import Image13 from "./Dummy-Images/13.png"
 import Image14 from "./Dummy-Images/14.png"
 import Image15 from "./Dummy-Images/15.png"
@@ -38,7 +37,7 @@ const Dummy = {
             image : Image1,
             name : 'Jeans Patched Fabric',
             price : 40000,
-            description : 'Surplus fabric collected from fashion production that is no longer needed by the factory that are patched into certain sizes.'
+            description : 'Surplus fabric collected from fashion production that is no longer needed by the factory that are patched into certain sizes. Size : 1 x 2 meter.'
         },
         {
             id:'2',
@@ -46,7 +45,7 @@ const Dummy = {
             image : Image2,
             name : 'Cotton Fabric',
             price : 55000,
-            description : 'Residue cotton fabrics from the production of cotton-based wears.'
+            description : 'Residue cotton fabrics from the production of cotton-based wears. Size : 1 x 2 meter.'
         },
         {
             id:'3',
@@ -54,7 +53,7 @@ const Dummy = {
             image : Image3,
             name : 'Unprocessed Denim Fabric',
             price : 75000,
-            description : 'Denim fabric that are leftover, not been processed after the first use.'
+            description : 'Denim fabric that are leftover, not been processed after the first use. Size : 1 x 2 meter.'
         },
         {
             id:'4',
@@ -62,7 +61,7 @@ const Dummy = {
             image : Image4,
             name : 'Alternating Design Patched Fabric',
             price : 60000,
-            description : 'Leftover fabrics from fashion productions that has been processed into an alternating design fabric.'
+            description : 'Leftover fabrics from fashion productions that has been processed into an alternating design fabric. Size : 1 x 2 meter.'
         },
         {
             id:'5',
@@ -70,7 +69,7 @@ const Dummy = {
             image : Image5,
             name : 'Cotton Doubl Layer Knitted Fabric',
             price : 60000,
-            description : 'Leftover fabric knitted to sized fabric in a double-layered style.'
+            description : 'Leftover fabric knitted to sized fabric in a double-layered style. Size : 1 x 2 meter.'
         },
         {
             id: '6',
@@ -78,7 +77,7 @@ const Dummy = {
             image : Image6,
             name : 'Fixed Sized Denim Fabric',
             price : 12000,
-            description : 'Denim fabric residue left from wear production, in fixed sizes.'
+            description : 'Denim fabric residue left from wear production, in fixed sizes. Size : 1 x 2 meter.'
         },
         {
             id:'7',
@@ -86,7 +85,7 @@ const Dummy = {
             image : Image7,
             name : 'Polyester Fabric',
             price : 90000,
-            description :'Fabric leftover from the production of a European bag manufacturer.'
+            description :'Fabric leftover from the production of a European bag manufacturer. Size : 1 x 2 meter.'
         },
         {
             id: '8',
@@ -94,7 +93,7 @@ const Dummy = {
             image : Image8,
             name : 'Patched Fabric Scraps',
             price : 30000,
-            description : 'Fabric scraps patched into certain sizes made for upcycling.'
+            description : 'Fabric scraps patched into certain sizes made for upcycling. Size : 1 x 2 meter.'
         },
         {
             id:'9',
@@ -102,7 +101,7 @@ const Dummy = {
             image : Image9,
             name : 'Nylon Fabric',
             price : 110000,
-            description : 'Nylon fabric residue left from the production from a wear manufacturer.'
+            description : 'Nylon fabric residue left from the production from a wear manufacturer. Size : 1 x 2 meter.'
         },
         {
             id:'10',
@@ -110,7 +109,7 @@ const Dummy = {
             image : Image10,
             name : 'Linen Cotton Cuts',
             price : 45000,
-            description : 'Leftover fabric linen cotton cuts.'
+            description : 'Leftover fabric linen cotton cuts. Size : 1 x 2 meter.'
         },
         {
             id: '11',

@@ -29,7 +29,7 @@ const Card = (props) => {
             <div className="card-bottom">
                 <div className="card-price">
                     <span style={{fontSize:"12px"}}>Price</span>
-                    <span>Rp{props.price}/kg</span>
+                    <span>Rp{props.price.toLocaleString()}</span>
                 </div>
                 <button onClick={updateCart}>Add to cart</button>
             </div>

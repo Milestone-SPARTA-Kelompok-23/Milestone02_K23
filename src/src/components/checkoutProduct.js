@@ -8,7 +8,7 @@ const CheckoutProduct = (props) => {
                     </div>
                     <div className="cart-details">
                         <h1>{props.name}</h1>
-                        <p className="cart-price">Unit Price:<br></br><span>Rp.{props.price}</span></p>
+                        <p className="cart-price">Unit Price:<br></br><span>Rp{props.price.toLocaleString()}</span></p>
                         <span style={{fontSize:"20px"}}>Quantity: {props.quantity}</span>
                     </div>
         </div>

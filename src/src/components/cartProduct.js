@@ -9,7 +9,7 @@ const CartProduct = (props) => {
                     <div className="cart-details">
                         <h1>{props.name} <span>{props.quantity}</span></h1>
                         <hr></hr>
-                        <p className="cart-price">Price:<br></br><span>Rp.{props.price}</span></p>
+                        <p className="cart-price">Total Price:<br></br><span>Rp{props.price.toLocaleString()}</span></p>
                     </div>
         </div>
     )

@@ -47,7 +47,7 @@ const Product = (props) => {
                         <hr></hr>
                         <p>Description :</p>
                         <p>{data.description}</p>
-                        <p className="price-product">Price:<br></br><span>Rp.{data.price}/kg</span></p>
+                        <p className="price-product">Price:<br></br><span>Rp{data.price.toLocaleString()}</span></p>
                         <button onClick={updateCart}>Add to cart</button>
                     </div>
                 </div>
