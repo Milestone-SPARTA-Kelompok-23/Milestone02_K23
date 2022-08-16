@@ -15,6 +15,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "./firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
 import Checkout from './routes/checkout';
+import WhatsApp from "./components/whatsapp.js";
 
 function App() {
   const [user] = useAuthState(auth);
@@ -46,6 +47,7 @@ function App() {
           <Route exact path="/cart" element={<Cart />} />
           <Route exact path="/checkout" element={<Checkout data={Data} cart={cart} doc={id} user={user}/>} />
         </Routes>
+        <WhatsApp />
       </BrowserRouter>
     </div>
   );
