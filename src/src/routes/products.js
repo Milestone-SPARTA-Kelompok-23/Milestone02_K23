@@ -28,7 +28,6 @@ const Products = () => {
                 if (loading) return;
                 fetchData();
         }
-        if (!user) return navigate("/login");
     }, [user, loading, navigate]);
     const fetchCategory = (e) => {
         const category = e

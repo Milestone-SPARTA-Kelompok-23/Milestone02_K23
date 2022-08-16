@@ -1,0 +1,112 @@
+.reset-logo {
+  background: url('../images/background-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 45%;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.reset-logo a {
+  font-size: 60px;
+  margin-left: 2rem;
+  width: 4rem;
+}
+.reset-logo img {
+  margin: auto auto;
+  margin-bottom: 40%;
+}
+
+.reset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #606C38;
+  }
+  .reset_field h1 {
+    font-size: 48px;
+    color: #000;
+    font-weight: 300;
+    text-decoration: underline 3px;
+    margin-top: 4rem;
+  }
+  .reset__container {
+    width: 60%;
+    height: 100vh;
+    background-color: #FEFAE0;
+    display: flex;
+  }
+  .reset_field {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid #606C38;
+    border-radius: 65px;
+  }
+  .reset_input {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .reset_input label {
+    text-align: left;
+    color: gray;
+  }
+  .reset__textBox {
+    background-color: #FEFAE0;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    width: 95%;
+  }
+  .reset__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: #606C38;
+    width: 20rem;
+    border-radius: 30px;
+  }
+  .reset__google {
+    background-color: #4285f4;
+    font-size: 16px;
+  }
+
+  .button-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+  }
+
+  .button-container-login div {
+    margin-top: 1rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .reset-logo{
+      width: 100%;
+    }
+
+    .reset-logo img{
+      width: 80%;
+      margin-top: auto;
+    }
+    .reset__container {
+      width: 100%;
+      height: 100%;
+      padding: 3rem 0;
+    }
+    .reset {
+      flex-direction: column;
+      width: 100%;
+    }
+  }

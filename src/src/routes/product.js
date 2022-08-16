@@ -1,18 +1,15 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import "../styles/product.css";
 import { db } from "../firebase";
 import { doc, updateDoc} from "firebase/firestore";
-import { useEffect } from "react";
 
 const Product = (props) => {
     const {id} = useParams();
-    const navigate = useNavigate();
     const data = props.data.data.filter(item => item.id === id)[0];
     console.log(data)
     const updateCart = async () => {
-        window.alert("Produk berhasil ditambahkan ke cart.")
         let cart = {
             id:data.id,
             image:data.image,
@@ -21,16 +18,17 @@ const Product = (props) => {
         }
         let newCart = props.cart
         newCart.push(cart)
-        const washingtonRef = doc(db, "users", props.doc);
-
-        await updateDoc(washingtonRef, {
-            cart : newCart
-        });
+        try { 
+            const washingtonRef = doc(db, "users", props.doc);
+            await updateDoc(washingtonRef, {
+                cart : newCart
+            });
+            window.alert("Produk berhasil ditambahkan ke cart.")
+        } catch(err) {
+            window.alert("Silahkan login terlebih dahulu.")
+        }
 
     }
-    useEffect(() => {
-        if(!props.user) return navigate("/login");
-    }, [props.user, navigate])
     return (
         <div>
             <NavBar />

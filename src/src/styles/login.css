@@ -12,21 +12,32 @@ body{
     justify-content: center;
     color: #606C38;
 }
+.login-logo a {
+    font-size: 60px;
+    margin-left: 2rem;
+    width: 4rem;
+  }
+
+.login-image {
+    margin: auto auto;
+    margin-bottom: 40%;
+}
 .brand_logo{
     background-image: url('../images/background-1.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 45%;
     height: 100vh;
-    flex-direction: colomn;
+    flex-direction: column;
     display: flex;
     border-bottom: 3px solid #263618;
     box-sizing: border-box;
 } 
 
 .brand_logo img{
-    margin: auto;
+    padding-bottom: auto;
 }
+
 .main{
     background-color: #FEFAE0;
     width: 60%;
@@ -56,7 +67,7 @@ body{
     font-size: 50px;
 }
 
-.form_input form input, .form_input form label{
+.form_input input, .form_input label{
     width: 80%;
     margin: auto;
     display: flex;
@@ -65,7 +76,7 @@ body{
 }
 
 
-.form_input form input{
+.form_input input{
     margin-top: -15px;
     padding: 9px;
     box-sizing: border-box;
@@ -74,7 +85,7 @@ body{
     background-color: #FEFAE0;
 }
 
-.form_input form button {
+.form_input button {
     background-color: #606C38;
     border: none;
     border-radius: 11px;
@@ -99,27 +110,13 @@ body{
     letter-spacing: 1px;
 }
 
-.form_input form p{
+.form_input p{
     text-align: center;
     font-size: 14px;
     text-decoration: none;
 }
 
-.form_input form p a {
+.form_input p a {
     text-decoration: none;
     color: #606C38;
-}
-
-.footer{
-    background-color: #263618;
-    text-align: center;
-    place-content: center;
-    color: #FEFAE0;
-    border-top: 1px solid #FEFAE0;
-    box-sizing: border-box;
-}
-
-.footer p3{
-    color: #606C38;
-    font-size: 14px;
 }

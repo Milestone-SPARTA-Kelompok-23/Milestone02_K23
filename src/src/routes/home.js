@@ -55,18 +55,18 @@ const Home = () => {
                         <div className="hot-fabrics">
                             <h3>FEATURED ZERO-WASTE FASHION</h3>
                             <div className="card-container">
-                                <Card image={Data.data[7].image} name={Data.data[7].name} price={Data.data[7].price} id={Data.data[7].id} cart={cart} updateCart={setCart} doc={id}/>
-                                <Card image={Data.data[8].image} name={Data.data[8].name} price={Data.data[8].price} id={Data.data[8].id} cart={cart} updateCart={setCart} doc={id}/>
-                                <Card image={Data.data[9].image} name={Data.data[9].name} price={Data.data[9].price} id={Data.data[9].id} cart={cart} updateCart={setCart} doc={id}/>
+                                <Card image={Data.data[10].image} name={Data.data[10].name} price={Data.data[10].price} id={Data.data[10].id} cart={cart} updateCart={setCart} doc={id}/>
+                                <Card image={Data.data[11].image} name={Data.data[11].name} price={Data.data[11].price} id={Data.data[11].id} cart={cart} updateCart={setCart} doc={id}/>
+                                <Card image={Data.data[12].image} name={Data.data[12].name} price={Data.data[12].price} id={Data.data[12].id} cart={cart} updateCart={setCart} doc={id}/>
                             </div>
                             <div className="link-more"><a href="/products">More <span>&#8594;</span></a></div>
                         </div>
                         <div className="hot-fabrics">
                             <h3>POPULAR THRIFT</h3>
                             <div className="card-container">
-                                <Card image={Data.data[13].image} name={Data.data[13].name} price={Data.data[13].price} id={Data.data[13].id} cart={cart} updateCart={setCart} doc={id}/>
-                                <Card image={Data.data[14].image} name={Data.data[14].name} price={Data.data[14].price} id={Data.data[14].id} cart={cart} updateCart={setCart} doc={id}/>
-                                <Card image={Data.data[15].image} name={Data.data[15].name} price={Data.data[15].price} id={Data.data[15].id} cart={cart} updateCart={setCart} doc={id}/>
+                                <Card image={Data.data[20].image} name={Data.data[20].name} price={Data.data[20].price} id={Data.data[20].id} cart={cart} updateCart={setCart} doc={id}/>
+                                <Card image={Data.data[21].image} name={Data.data[21].name} price={Data.data[21].price} id={Data.data[21].id} cart={cart} updateCart={setCart} doc={id}/>
+                                <Card image={Data.data[22].image} name={Data.data[22].name} price={Data.data[22].price} id={Data.data[22].id} cart={cart} updateCart={setCart} doc={id}/>
                             </div>
                             <div className="link-more"><a href="/products">More <span>&#8594;</span></a></div>
                         </div>

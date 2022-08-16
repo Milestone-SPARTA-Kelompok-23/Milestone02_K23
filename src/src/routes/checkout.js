@@ -8,12 +8,17 @@ import { doc, updateDoc } from "firebase/firestore";
 const Checkout = (props) => {
     const navigate = useNavigate();
     const updateCart = async () => {
-        const washingtonRef = doc(db, "users", props.doc);
-        await updateDoc(washingtonRef, {
-            cart : []
-        });
-        navigate("/", { replace: true });
-        window.alert("Checkout berhasil. Terima kasih sudah belanja di toko kami :).")
+        if(newCart.length === 0) {
+            window.alert("Silahkan tambahkan produk terlebih dahulu")
+            navigate("/", { replace: true });
+        } else {
+            const washingtonRef = doc(db, "users", props.doc);
+            await updateDoc(washingtonRef, {
+                cart : []
+            });
+            navigate("/", { replace: true });
+            window.alert("Checkout berhasil. Terima kasih sudah belanja di toko kami :).")
+        }
     }
     const quantity = () =>{
         const check = (id) => {
@@ -56,7 +61,6 @@ const Checkout = (props) => {
         }
         return totalPrice
     }
-    if(newCart.length === 0) return navigate("/");
     return (
         <>
         <NavBar />
