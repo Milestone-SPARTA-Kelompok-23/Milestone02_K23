@@ -7,7 +7,7 @@ Anggota Kelompok :
 2. Puti Nabilla Aidira - 16521078 - Front End (Home)
 3. Kevin Prayoga Abdinegara - 16521122 - Data Dummy
 4. Alex Sander - 16521198 - Data Dummy
-5. Michael Jonathan Halim - 16521226 - Front End and Back End
+5. Michael Jonathan Halim - 16521226 - Front End, Back End, ReadMe
 6. Shelma Salsabila - 16521229 - Data Dummy
 7. Muhammad Equilibrie Fajria - 16521233 - Front End (Cart)
 8. Husnia Munzayana - 16521313 - Data Dummy
@@ -19,6 +19,13 @@ Anggota Kelompok :
 14. Raden Sjora Okalani - 16521528 - Images
 
 ## Petunjuk Penggunaan Website
+A. Menjalankan Website
+1. Sebelum menjalankan website tersebut, silahkan clone terlebih dahulu repository ini.
+2. Setelah melakukan cloning, buka folder repository di local anda.
+3. Buka folder src, lalu klik kanan dan klik "git bash here".
+4. Kemudian, ketik "npm start" untuk menjalankan website.
+
+B. Menggunakan Website
 1. Lakukan registrasi terlebih dahulu dengan menekan tombol sign-in pada navigation bar, lalu klik tombol "Create an account"
 2. Isi semua data yang diperlukan (Pastikan semua terisi agar registrasi berhasil)
 3. Jika sudah registrasi, maka akan terotomatis login
