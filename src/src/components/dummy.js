@@ -9,6 +9,16 @@ import Image7 from "./Dummy-Images/7.png"
 import Image8 from "./Dummy-Images/8.png"
 import Image9 from "./Dummy-Images/9.png"
 import Image10 from "./Dummy-Images/10.png"
+import Image11 from "./Dummy-Images/11.png"
+import Image12 from "./Dummy-Images/12.png"
+import Image13 from "./Dummy-Images/13.png"
+import Image14 from "./Dummy-Images/14.png"
+import Image15 from "./Dummy-Images/15.png"
+import Image16 from "./Dummy-Images/16.png"
+import Image17 from "./Dummy-Images/17.png"
+import Image18 from "./Dummy-Images/18.png"
+import Image19 from "./Dummy-Images/19.png"
+import Image20 from "./Dummy-Images/20.png"
 import Image21 from "./Dummy-Images/21.png"
 import Image22 from "./Dummy-Images/22.jpg"
 import Image23 from "./Dummy-Images/23.png"
@@ -105,82 +115,82 @@ const Dummy = {
         {
             id: '11',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image11,
+            name : "Foldable Bag The Daily Habit",
+            price : 110000,
+            description : "Totebag with an esthetic modify unisex."
         },
         {
             id: '12',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image12,
+            name : "Unisex Fisherman Knit Sweater - Red Threads",
+            price : 250000,
+            description : "Pushing the frontiers of sustainable fashion through the use of reclaimed materials in making one-of-a-kind clothes for women."
         },
         {
             id: '13',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image13,
+            name : "Beachside Bundle",
+            price : 200000,
+            description : "casual wear using deadstock materials for women."
         },
         {
             id: '14',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image14,
+            name : "Jacket for Women",
+            price : 300000,
+            description : "clothing mostly from recycled materials for women."
         },
         {
             id: '15',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image15,
+            name : "Recycled Vintage Painted Jacket Check",
+            price : 250000,
+            description : "from production waste and offcuts to create stunning pieces unisex."
         },
         {
             id: '16',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image16,
+            name : "Zip Front PVC Leather Jacket",
+            price : 200000,
+            description : "Retro produces upcycled clothing under its reworked sub brand crafted from secondhand recycled items unisex."
         },
         {
             id: '17',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image17,
+            name : "Remnants Marled Baby Tee",
+            price : 150000,
+            description : "Sustainable fashion through various sustainability initiatives unisex."
         },
         {
             id: '18',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image18,
+            name : "Daybreak Sweetshirt",
+            price : 300000,
+            description : "Upcycling clothing and zero waste fashion unisex."
         },
         {
             id: '19',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image19,
+            name : "High Rise Loose",
+            price : 400000,
+            description : "upcycled denim clothing for women."
         },
         {
             id: '20',
             category : 'Zero-Waste Fashion',
-            image : Image,
-            name : "Jeans Patched Fabric",
-            price : 50000,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            image : Image20,
+            name : "Seventyseven Cord Utility Shorts",
+            price : 150000,
+            description : "sustainable materialsf for men."
         },
         {
             id: '21',
